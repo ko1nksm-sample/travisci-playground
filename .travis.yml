@@ -1,3 +1,7 @@
 dist: xenial
 language: sh
 script: echo ok
+os:
+  - linux
+  - osx
+
