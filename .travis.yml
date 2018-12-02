@@ -4,4 +4,7 @@ script: echo ok
 os:
   - linux
   - osx
+env:
+  - AAA=1
+  - BBB=2
 
