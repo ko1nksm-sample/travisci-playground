@@ -8,6 +8,7 @@ env:
   - AAA=1
   - BBB=2
 matrix:
-  exclude:
-    - env: BBB=2
+  include:
+    - os: linux
+      env: CCC=e
 
