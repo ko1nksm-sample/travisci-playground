@@ -7,4 +7,7 @@ os:
 env:
   - AAA=1
   - BBB=2
+matrix:
+  include:
+    - env: CCC=3
 
