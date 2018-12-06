@@ -1,4 +1,7 @@
 language: sh
+env:
+  global:
+    - HOMEBREW_NO_AUTO_UPDATE=1
 addons:
   apt:
     update: true
