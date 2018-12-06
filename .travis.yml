@@ -7,6 +7,15 @@ os:
 env:
   - AAA=1
   - BBB=2
+addons:
+  apt:
+    packages:
+      - zsh
+      - ksh
+  homebrew:
+    packages:
+      - zsh
+      - ksh
 matrix:
   include:
     - os: linux
