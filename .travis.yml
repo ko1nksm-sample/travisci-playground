@@ -5,19 +5,15 @@ os:
   - linux
   - osx
 env:
-  - AAA=1
-  - BBB=2
+  - SH=bash
+  - SH=zsh
+  - SH=ksh
 addons:
   apt:
-    packages:
-      - zsh
-      - ksh
-  homebrew:
-    packages:
-      - zsh
-      - ksh
-matrix:
-  include:
-    - os: linux
-      env: CCC=e
+    update: true
+  homebew:
+    update: true
+before_install:
+  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install -y "$SH"; fi
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew install "$SH"; fi
 
