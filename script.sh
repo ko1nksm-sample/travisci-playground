@@ -1,5 +1,4 @@
 #!/bin/sh
 
 echo $$
-ps xl
-
+ps xl | cat
