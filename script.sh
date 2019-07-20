@@ -1,5 +1,5 @@
 #!/bin/sh
 
 echo $$
-ps -f
+ps ax -f
 
