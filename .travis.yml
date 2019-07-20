@@ -36,4 +36,4 @@ matrix:
 #before_install:
 #  - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt-get install -y "$SH"; fi
 #  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then brew install "$SH"; fi
-script: $SH -c "ps"
+script: ps
