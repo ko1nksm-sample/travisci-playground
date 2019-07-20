@@ -1,4 +1,5 @@
 #!/bin/sh
 
-./script.sh
+sh ./script.sh
+
 
