@@ -1,7 +1,10 @@
 language: shell
-
-services:
-  - docker
-
+os:
+  - windows
+install:
+  - git clone https://github.com/shellspec/shellspec -b support_windows_line_endings_for_specfiles
+  - cd shellspec
 script:
-  - docker --version
+  - "./shellspec --version"
+  - "./shellspec --syntax-check"
+  - "./shellspec"
