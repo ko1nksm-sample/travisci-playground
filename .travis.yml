@@ -4,4 +4,4 @@ os:
   #- linux
   #- osx
 script:
-  - "ls -al /mingw64/bin"
+  - "ls -al /bin /usr /cmd"
