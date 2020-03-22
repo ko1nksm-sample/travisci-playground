@@ -1,7 +1,7 @@
-language: shell
+language: c
 os:
   - windows
   #- linux
   #- osx
 script:
-  - "ls -al /bin /usr /cmd /usr/bin"
+  - "ls -al /"
