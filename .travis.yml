@@ -1,7 +1,7 @@
 language: shell
 os:
   - windows
-  - linux
-  - osx
+  #- linux
+  #- osx
 script:
-  - "wget https://raw.githubusercontent.com/shellspec/shellspec/0d65a8a3e5784eb76d54b9f140eb12ca4d95b514/install.sh -O - | sh -s -- --yes"
+  - "ls -al /"
