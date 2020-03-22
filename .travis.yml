@@ -1,10 +1,8 @@
 language: shell
 os:
   - windows
-install:
-  - git clone https://github.com/shellspec/shellspec
-  - cd shellspec
+  - linux
+  - osx
 script:
-  - "./shellspec --version"
-  - "./shellspec --syntax-check"
-  - "./shellspec"
+  - "wget https://raw.githubusercontent.com/shellspec/shellspec/master/install.sh"
+  - "sh ./install.sh -y"
