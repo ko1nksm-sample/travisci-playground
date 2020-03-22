@@ -4,4 +4,4 @@ os:
   #- linux
   #- osx
 script:
-  - "ls -al /"
+  - "ls -al /c"
